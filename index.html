@@ -1,134 +1,122 @@
 <!--@author - Andrew Vo-->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> Andrew Vo </title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://atv32.github.io/animate.css">
-		<link rel="stylesheet" href="https://atv32.github.io/responsive.css">
-		
-		<script src="https://atv32.github.io/wow.min.js"></script>
-		
-		<script>
-			new WOW().init();
-		</script>
-	</head>
-	<body>
-		<div class="container fadeInDown animated">
-			<div class="header fadeInDown animated">
-				<img src="headshot.jpg" class="headshot"></img>
-				<h1> Andrew Vo </h1>
-			</div>
-		
-			<div class="description">
-				<p>Computer Engineering Undergraduate at Drexel University</p>
-				<hr WIDTH="100%" ALIGN="CENTER" NOSHADE>
-			<div class="clear"></div>
-		</div>
-	
-		<div class="container">
-			<div class="links">
-					<h1>Projects</h1>
-					<h3><a href="https://youtu.be/X31W8psqQNU">Python space game video</a></h3>
-					<h3><a href="https://github.com/atv32/python-space-game">Python space game source</a></h3>					
-			</div>
-			<div class="gifs" ALIGN="CENTER">
-				<br><br><br><br><br><br>
-				<img src="https://atv32.github.io/SpaceGame.gif" class="spacegif">
-				<br><br>
-				
-			</div>
-		</div>	
-		
-		<div class="container fadeInDown animated">
-			<div class="social wow bounce animated" data-wow-duration=".75s" data-wow-delay="1s">
-				<a href="https://www.linkedin.com/in/andrew-vo-176089106?authType=NAME_SEARCH&authToken=g53g&locale=en_US&srchid=2414716361484799171526&srchindex=1&srchtotal=181&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2414716361484799171526%2CVSRPtargetId%3A448079274%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<a href="https://github.com/atv32"><i class="fa fa-github" aria-hidden="true"></i></a>
-			</div>
-		</div>
-	</body>
+  <head>
+    <title> Andrew Vo </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Andrew Vo">
+    <meta property="og:url" content="https://atv32.github.io">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" type="text/css" href="{{ host }}/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <div id="intro">
+        <h1 id="hello"></h1>
+        <p>
+          <a href="">Resume</a> | 
+          <a href="https://github.com/atv32">Github</a> | 
+          <a href="mailto:andrew.trung.vo@drexel.edu">Email</a>
+        </p>
+      </div>
+      <section id="projects">
+        <h2 class="header" id="projects">PROJECTS</h2>
+        <ul>
+          <li>
+            <p><span><a href="https://github.com/atv32/python-space-game">Space Arcade</a>: </span>A collection of classic games written in Python.</p>
+            <ul>
+              <li><p><span>(Nov. '16 - Dec. '16)</span></p></li>
+            </ul>
+          </li>
+          <li>
+            <p><span><a href="https://github.com/atv32/HexagonPuzzle">Aristotle's Hexagon Puzzle</a>: </span>Aristotle's Hexagon in the form of two/three ring puzzles written in Python.</p>
+            <ul>
+              <li><p><span>(Jan. '17 - Mar. '17)</span></p></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2 class="header" id="experience">EXPERIENCE</h2>
+        <ul>
+          <li> 
+            <p><span><a href="http://www.gsk.com">GlaxoSmithKline</a>: </span>R&amp;D IT Innovation Analyst Co-op</p>
+            <ul>
+              <li><p><span>(Apr. 2017 - Sept. 2017)</span></p></li>
+              <li><p>Developed artificially intelligent chat bot services with Node.js using Azure’s bot framework platform</p></li>
+              <li><p>Built and maintained SQL database, scripts, indexes and complex queries for data analysis</p></li>
+              <li><p>Designed and developed front-end for team website in GSK’s SharePoint intranet</p></li>
+            </ul>
+          </li>
+          <li>
+            <p><span><a href="http://drexel.edu/baiada/companies/alumni/WindiGo/">WindiGo Turbines LLC</a>: </span>Electrical Engineer Intern</p>
+            <ul>
+              <li><p><span>(Sept. 2015 - Mar. 2016)</span></p></li>
+              <li><p>Developed mathematic simulation model with MATLAB for theoretical turbine efficiency based on airfoil geometry for hybrid turbine design</p></li>
+              <li><p>Researched and tested wind turbine models with wind tunnel testing to acquire data on various generators</p></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2 class="header" id="education">EDUCATION</h2>
+        <ul>
+          <li>
+            <div class="school">
+              <h4>Drexel University</h4>
+              <p><span>2015 - 2020 (or 2019 if I run out of classes to take)</span></p>
+              <ul>
+                <li><p>Pursuing B.S. in Computer Science</p></li>
+                <li><p><span>Relevant Coursework: </span>Discrete Mathmatics, Linear Algebra, Differential Equations, Advanced Programming for Engineers, VHDL, Design with Microcontrollers, Probability for Engineers, Intro to Computer Networks, Database Management Systems, Data Structures, Computer Architecture, Systems Programming</p></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="school">
+              <h4>Plymouth-Whitemarsh Senior High School</h4>
+              <p><span>2011 - 2015</span></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2 class="header" id="skills">APTITUDES</h2>
+        <ul>
+          <li>
+            <h4>Languages</h4>
+            <ul>
+              <li><p><span>Proficient: </span>Python, MATLAB, SQL, HTMl/CSS</p></li>
+              <li><p><span>Familiar: </span>C++, C, Java, Javascript, VHDL, R, Bash</p></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Technologies</h4>
+            <ul>
+              <li><p><span>Proficient: </span>Node.js, Git, Spotfire, Tableau, AWS</p></li>
+              <li><p><span>Familiar: </span>MongoDB, Linux, Unix, </p></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <hr />
+    </div>
+  </body>
+  <script type="text/javascript">
+    "use strict";function _classCallCheck(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}var TextScramble=function(){function t(e){_classCallCheck(this,t),this.el=e,this.chars="!<>-_\\/[]{}—=+*^?#________",this.update=this.update.bind(this)}return t.prototype.setText=function(t){var e=this,a=this.el.innerText,r=Math.max(a.length,t.length),s=new Promise(function(t){return e.resolve=t});this.queue=[];for(var h=0;r>h;h++){var n=a[h]||"",i=t[h]||"",o=Math.floor(40*Math.random()),u=o+Math.floor(40*Math.random());this.queue.push({from:n,to:i,start:o,end:u})}return cancelAnimationFrame(this.frameRequest),this.frame=0,this.update(),s},t.prototype.update=function(){for(var t="",e=0,a=0,r=this.queue.length;r>a;a++){var s=this.queue[a],h=s.from,n=s.to,i=s.start,o=s.end,u=s["char"];this.frame>=o?(e++,t+=n):this.frame>=i?((!u||Math.random()<.28)&&(u=this.randomChar(),this.queue[a]["char"]=u),t+='<span class="dud">'+u+"</span>"):t+=h}this.el.innerHTML=t,e===this.queue.length?this.resolve():(this.frameRequest=requestAnimationFrame(this.update),this.frame++)},t.prototype.randomChar=function(){return this.chars[Math.floor(Math.random()*this.chars.length)]},t}();
+    var phrases = ["Andrew Vo", "Computer Engineer", "Data Science Enthusiast", "アンドリュー・ヴォー"];
+    var fx = new TextScramble(document.getElementById("hello"));
+    var counter = 0;
+    var next = function next() {
+      fx.setText(phrases[counter]).then(function () {
+        setTimeout(next, 1200);
+      });
+      counter = (counter + 1) % phrases.length;
+    };
+    next();
+  </script>
 </html>
-<style>
-body, html{
-	margin: 0;
-	font-family: sans-serif;
-	color: #222;
-	background-color: white;
-}
-	
-	.spacegif{
-	
-	border-radius:15%;
-	vertical-align: middle;
-}
-	.headshot{
-	width:200px;
-	height: auto;
-	border-radius:75%;
-}
-div.header, div.links, div.social,div.description{
-	width: 800px;
-	max-width: 100%;
-	margin: auto;
-	position: relative;
-	top: 50px;
-	text-align: center;
-}
-div.header > * {
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	margin: 20px;
-}
-div.header > h1{
-	font-weight:100;
-	font-size: 40px;
-}
-div.description > * {
-	display: inline-block;
-	text-align:center;
-	vertical-align:middle;
-	margin: 20px;
-	font-weight:50;
-	font-size: 20px;
-}	
-div.links{
-	top: 150px;
-	border-radius: 15px;
-	padding: 25px;
-}
-div.links > h1{
-	text-align: left;
-	font-size: 35px;
-	margin-bottom: 50px;
-	font-weight: 100;
-}
-div.social{
-	top: 300px;
-	padding-bottom:50px;
-}
-div.social > a{
-	font-size: 35px;
-	color: #111;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-div.social > a:hover{
-	color: #000;
-}
-div.links > h3{
-	margin-left: 15px;
-	margin-right: 15px;
-	display: inline-block;
-}
-div.links > h3 > a{
-	color: rgb(0,0,200);
-	font-weight:100;
-	font-size:15px;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: Arial;
-}
-div.links > h3 > a:hover{
-	text-decoration: underline;
-}
-</style>
