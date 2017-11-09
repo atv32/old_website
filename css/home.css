@@ -1,1 +1,94 @@
+@import "normalize";
 
+html {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+
+  @media screen and (min-width: 400px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.75em 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0.75em 0;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.50rem;
+  margin: 0.75em 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin: 0.75em 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.75em 0;
+}
+
+span {
+  color: #757575;
+
+  &#heart {
+    color: #e74c3c;
+  }
+
+  &#coffee {
+    color: #a0522d;
+  }
+
+  &#sleep {
+    text-decoration: line-through;
+  }
+
+  &#scrobble_pre {
+    color: #000;
+  }
+}
+
+a {
+  padding: 0 0.5rem;
+  color: blue;
+  text-decoration: none;
+
+  &:visited {
+    color: blue;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+  }
+}
+
+.header {
+  color: white;
+  display: inline-block;
+  padding: 0 0.5rem;
+  background-color: red;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.content {
+  max-width: 44rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
